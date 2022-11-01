@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "simcity.h"
 
-int creer_jeux(){
+t_jeu *creer_jeux(){
 
     t_jeu *jeu = (t_jeu*)malloc(sizeof(t_jeu));
     jeu->compteur_habitants =0;
